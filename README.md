@@ -9,7 +9,9 @@ Nasihosting Custom Domain v1.0 Beta 1
 Cara setting custom Domain di aktivasi5.sh
 ----------------------------------------------------------
 Isi E-mail akun cloudflare
+
 Isi key akun cloudflare
+
 Isi account id cloudflare
 
 Licensi
