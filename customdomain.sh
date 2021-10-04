@@ -13,7 +13,7 @@ convert \
     -draw "text 0,0 '$(cat kode2.txt)'" \
     image2.png
 convert image2.png -background white -wave 4x55 image2.png
-sudo cp image2.png /home/freehacklab
+sudo cp image2.png /var/www/html
 sudo cp /usr/lib/cgi-bin/image2.png /var/www/html
 cat <<EOT
 <!DOCTYPE html>
