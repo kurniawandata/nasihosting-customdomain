@@ -6,7 +6,7 @@ curl -s -X POST "https://api.cloudflare.com/client/v4/zones" \
      -H "X-Auth-Email: $email" \
      -H "X-Auth-Key: $key" \
      -H "Content-Type: application/json" \
-     --data '{"account": {"id": "id dari cloudflare"}, "name": "unik", "jump_start": true}' > /dev/null
+     --data '{"account": {"id": "Account id dari cloudflare"}, "name": "unik", "jump_start": true}' > /dev/null
 
 zoneid=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=$zone&status=active" \
      -H "X-Auth-Email: $email" \
