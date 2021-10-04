@@ -39,7 +39,7 @@ cat <<EOT
             <div class="offset-1 col-10 mt-4">
                 <h3 style="text-align: center;">Registration domain</h3>
 <br>
-                <form action="runtahap1.sh" method="get">
+                <form action="runcustomdomain.sh" method="get">
                 <table class="table">
      <tr>
                         <td>Nama Sub domain : </td>
